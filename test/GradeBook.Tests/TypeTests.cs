@@ -24,6 +24,21 @@ namespace GradeBook.Tests
         }
 
         [Fact]
+        public void StringBehaveLikeValueTypes()
+        {
+        String name = "McDonald";
+       var  upper= MakeUpercase(name);
+        Assert.Equal("McDonald",name);
+        Assert.Equal("MCDONALD",upper);
+
+        }
+
+        private string MakeUpercase(string param)
+        {
+            return param.ToUpper();
+        }
+
+        [Fact]
          public void CSharpIsPassByRef()
         {           
          var book1= GetBook("Book 1");
