@@ -1,0 +1,13 @@
+D:\Mc Donald Fonyo\C# Fundamentals Course\Gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.exe
+D:\Mc Donald Fonyo\C# Fundamentals Course\Gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.deps.json
+D:\Mc Donald Fonyo\C# Fundamentals Course\Gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.json
+D:\Mc Donald Fonyo\C# Fundamentals Course\Gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.dev.json
+D:\Mc Donald Fonyo\C# Fundamentals Course\Gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.dll
+D:\Mc Donald Fonyo\C# Fundamentals Course\Gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.pdb
+D:\Mc Donald Fonyo\C# Fundamentals Course\Gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csprojAssemblyReference.cache
+D:\Mc Donald Fonyo\C# Fundamentals Course\Gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfoInputs.cache
+D:\Mc Donald Fonyo\C# Fundamentals Course\Gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfo.cs
+D:\Mc Donald Fonyo\C# Fundamentals Course\Gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csproj.CoreCompileInputs.cache
+D:\Mc Donald Fonyo\C# Fundamentals Course\Gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
+D:\Mc Donald Fonyo\C# Fundamentals Course\Gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
+D:\Mc Donald Fonyo\C# Fundamentals Course\Gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.genruntimeconfig.cache
