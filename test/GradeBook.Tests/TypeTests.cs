@@ -106,10 +106,8 @@ namespace GradeBook.Tests
          //since the object 1 ref object 2
          Assert.Same(book1,book2);
          Assert.True(Object.ReferenceEquals(book1,book2));//values in these variables point to same objects 
-  
          
         }
-
          Book GetBook(String name)
         {
            return new Book(name);
