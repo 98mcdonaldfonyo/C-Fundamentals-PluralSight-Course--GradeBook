@@ -46,6 +46,8 @@ namespace GradeBook
         //We need a loop that will allow the user to type in grades and when Q is pressed, the program has to stop
 
            var stats=  book.GetStatisitcs();
+           Console.WriteLine(Book.CATREGORY);
+           Console.WriteLine($"For the book named : {book.Name}");
            Console.WriteLine($"The low value is :{stats.Low}");
            Console.WriteLine($"The High value is :{stats.High}");
            Console.WriteLine($"The Sum value is :{stats.Sum}");
@@ -53,7 +55,7 @@ namespace GradeBook
            Console.WriteLine($"The Symbol obtained is :{stats.Letter}");
 
     
-        } 
+        }
 
             
     }    

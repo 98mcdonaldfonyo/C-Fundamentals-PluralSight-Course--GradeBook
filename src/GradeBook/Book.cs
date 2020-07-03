@@ -4,15 +4,23 @@ namespace GradeBook
 {
         public class Book
         {
-            public List<double> grades;
-            public string Name;
-
-            public Book(string Name)
+            private List<double> grades;
+            
+            public string Name
             {
-            grades=new List<double>(); 
-            this.Name=Name;
+                get;
+                private set;
             }
-            public void AddLetterGrade(char letter)
+            public const string CATREGORY="IT";
+
+            public Book(string name)
+            {
+            //catergory="";
+            grades=new List<double>(); 
+            Name=name;
+            }
+
+            public void AddGrade(char letter)
             {
                 switch(letter)
                 {
@@ -91,5 +99,6 @@ namespace GradeBook
                 }
                 return result;
             }
+
         }
 }
