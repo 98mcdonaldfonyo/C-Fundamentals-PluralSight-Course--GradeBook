@@ -19,9 +19,13 @@ namespace GradeBook.Tests
 
             //Assert
             Assert.Equal(85.6,result.Average,1);
-            Assert.Equal(513.8,result.Sum,1);
             Assert.Equal(90.5,result.High,1);
             Assert.Equal(77.3,result.Low,1);
+
+            //SYMBOLS NOW
+
+            Assert.Equal('B',result.Letter);
+
             
             
             

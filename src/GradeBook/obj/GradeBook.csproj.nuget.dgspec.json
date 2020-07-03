@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mc Donald Fonyo\\C# Fundamentals Course\\Gradebook\\src\\Gradebook\\GradeBook.csproj": {}
+    "D:\\Mc Donald Fonyo\\C# Fundamentals Course\\Gradebook\\src\\GradeBook\\GradeBook.csproj": {}
   },
   "projects": {
-    "D:\\Mc Donald Fonyo\\C# Fundamentals Course\\Gradebook\\src\\Gradebook\\GradeBook.csproj": {
+    "D:\\Mc Donald Fonyo\\C# Fundamentals Course\\Gradebook\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mc Donald Fonyo\\C# Fundamentals Course\\Gradebook\\src\\Gradebook\\GradeBook.csproj",
+        "projectUniqueName": "D:\\Mc Donald Fonyo\\C# Fundamentals Course\\Gradebook\\src\\GradeBook\\GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "D:\\Mc Donald Fonyo\\C# Fundamentals Course\\Gradebook\\src\\Gradebook\\GradeBook.csproj",
+        "projectPath": "D:\\Mc Donald Fonyo\\C# Fundamentals Course\\Gradebook\\src\\GradeBook\\GradeBook.csproj",
         "packagesPath": "C:\\Users\\mcdon\\.nuget\\packages\\",
-        "outputPath": "D:\\Mc Donald Fonyo\\C# Fundamentals Course\\Gradebook\\src\\Gradebook\\obj\\",
+        "outputPath": "D:\\Mc Donald Fonyo\\C# Fundamentals Course\\Gradebook\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
