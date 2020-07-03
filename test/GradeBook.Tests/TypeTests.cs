@@ -18,7 +18,6 @@ namespace GradeBook.Tests
         {
             x=42;
         }
-
         private int GetInt()
         {
             return 3;
