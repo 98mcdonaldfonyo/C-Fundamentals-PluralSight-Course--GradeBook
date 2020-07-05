@@ -2,18 +2,29 @@ using System.Collections.Generic;
 using System;
 namespace GradeBook
 {
-        public class Book
+        public delegate void GradeAddedDelegate(object sender,EventArgs args);
+       
+       public class NamedObject
+       {
+        public NamedObject(string name)
         {
-            private List<double> grades;
-            
-            public string Name
+            Name = name;
+        }
+          public string Name
             {
                 get;
                  set;
             }
+       }
+       public class Book: NamedObject
+        {
+
+           private List<double> grades;
+            
+            
             public const string CATREGORY="IT";
 
-            public Book(string name)
+            public Book(string name):base (name)
             {
             //catergory="";
             grades=new List<double>(); 
@@ -32,6 +43,7 @@ namespace GradeBook
                     AddGrade(80);
                     break;
 
+
                     case 'C':
                     AddGrade(70);
                     break;
@@ -46,12 +58,23 @@ namespace GradeBook
                  if(grade<=100 && grade>=0 )
                 {
                     grades.Add(grade);
+                    if(GradeAdded!=null)
+                    {
+
+                        GradeAdded(this,new EventArgs());
+
+                    }          
                 }
                 else
                 {
                   throw new ArgumentException($"Invalid format {nameof(grade)}");
                 }           
             }
+            public event  GradeAddedDelegate GradeAdded;
+             static void OnGradeAdded(object sender, EventArgs e)
+          {
+            Console.WriteLine("A Grade was Added ");
+          }
             public Statistics GetStatisitcs()//made the class as the type for test purposes
             {
                 char[] Letters=new char[]{'A','B','c','D','F'};

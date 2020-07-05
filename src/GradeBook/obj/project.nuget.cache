@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FqHdlH/OhxMiMC6wqeHRPVLffTUl31m0wGigU9tad17KFZjmGJ2huqY+rmcQyV605KiNi4HiwFrRlfh6ePvbzg==",
+  "dgSpecHash": "Yf3+pkIAnY16xvbRLbz4nn93pTMSdMwX5y+3NkoGKzUOZvV2qEm7tmCavW1s7amvPNBDBgjeNNc9VLEd8FIDEg==",
   "success": true,
-  "projectFilePath": "D:\\Mc Donald Fonyo\\C# Fundamentals Course\\Gradebook\\src\\GradeBook\\GradeBook.csproj",
+  "projectFilePath": "D:\\Mc Donald Fonyo\\C# Fundamentals Course\\Gradebook\\src\\Gradebook\\Gradebook.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
