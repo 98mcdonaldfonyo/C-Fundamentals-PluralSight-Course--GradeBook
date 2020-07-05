@@ -11,7 +11,7 @@ namespace GradeBook
           }
         static void Main(string[] args)
         {
-            var book = new Book("Mc D's Book");        
+            var book = new InMemoryBook("Mc D's Book");        
             book.GradeAdded += OnGradeAdded;//?multicast delegate
             EnterGrades(book);
 
@@ -21,7 +21,7 @@ namespace GradeBook
             //We need a loop that will allow the user to type in grades and when Q is pressed, the program has to stop
 
             var stats = book.GetStatisitcs();
-            Console.WriteLine(Book.CATREGORY);
+            Console.WriteLine(InMemoryBook.CATREGORY);
             Console.WriteLine($"For the book named : {book.Name}");
             Console.WriteLine($"The low value is :{stats.Low}");
             Console.WriteLine($"The High value is :{stats.High}");
@@ -34,6 +34,7 @@ namespace GradeBook
             {
                 Console.WriteLine("Please enter your grades below or letter q to quit");
                 var input = Console.ReadLine();
+
                 if (input.Equals("q"))
                 {
                     break;
